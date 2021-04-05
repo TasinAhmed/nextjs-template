@@ -24,7 +24,6 @@
 			"@molecules": ["components/molecules/index.ts"],
 			"@organisms": ["components/organisms/index.ts"],
 			"@templates": ["components/templates/index.ts"],
-      "@styles": ["styles/index.ts"],
 		}
   },
   "include": [
