@@ -1,17 +1,14 @@
-  
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-    *, 
-    *:before, 
-    *:after {
+    * {
+        padding: 0;
+        margin: 0;
         box-sizing: border-box;
     }
 
     html,
     body {
-        padding: 0;
-        margin: 0;
         height: 100%;
     }
 
@@ -26,4 +23,4 @@ export default createGlobalStyle`
     button {
         font-family:inherit;
     }
-`
+`;
